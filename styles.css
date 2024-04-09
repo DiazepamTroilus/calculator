@@ -1,0 +1,72 @@
+* {
+  background-color: rgb(58, 58, 58);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cal-outline {
+  border: 1px solid gray;
+  border-radius: 4px;
+
+  margin-top: 100px;
+
+  width: 600px;
+  height: 800px;
+}
+.cal-display {
+  border: 2px solid green;
+  border-radius: 3px;
+  background-color: rgb(112, 255, 112);
+  color: rgb(0, 92, 0);
+  font-family: "Press Start 2P", "Orbitron", sans-serif;
+  margin: 30px;
+  height: 80px;
+  width: 500px;
+  padding-top: 24px;
+  text-align: right;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block; /* Makes the <a> tag respect width and height */
+  width: 80px; /* Square's width */
+  height: 80px; /* Square's height, same as width to make it a square */
+  text-align: center; /* Centers text horizontally */
+  line-height: 80px; /* Centers text vertically, should match height */
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.cal-buttons-first {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.btn-row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.btn-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
