@@ -39,6 +39,7 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
   color: white;
   border: 1px solid white;
   border-radius: 4px;
@@ -58,7 +59,7 @@ a {
 .cal-buttons-first {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
 }
 .btn-row {
   display: flex;
@@ -68,5 +69,8 @@ a {
 .btn-col {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 40px;
+}
+.zero {
+  width: 200px;
 }

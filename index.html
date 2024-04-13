@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script async src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,33 +20,36 @@
         <div class="buttons">
           <div class="cal-buttons-first">
             <div class="btn-row">
-              <div><a href="">+/-</a></div>
-              <div><a href="">AC</a></div>
-              <div><a href="">&#x232B;</a></div>
+              <div><a id="changeSign">+/-</a></div>
+              <div><a id="clear">AC</a></div>
+              <div><a id="back">&#x232B;</a></div>
             </div>
             <div class="btn-row">
-              <div><a href="">1</a></div>
-              <div><a href="">2</a></div>
-              <div><a href="">3</a></div>
+              <div><a id="1">1</a></div>
+              <div><a id="2">2</a></div>
+              <div><a id="3">3</a></div>
             </div>
             <div class="btn-row">
-              <div><a href="">4</a></div>
-              <div><a href="">5</a></div>
-              <div><a href="">6</a></div>
+              <div><a id="4">4</a></div>
+              <div><a id="5">5</a></div>
+              <div><a id="6">6</a></div>
             </div>
             <div class="btn-row">
-              <div><a href="">7</a></div>
-              <div><a href="">8</a></div>
-              <div><a href="">9</a></div>
+              <div><a id="7">7</a></div>
+              <div><a id="8">8</a></div>
+              <div><a id="9">9</a></div>
+            </div>
+            <div class="btn-row">
+              <div><a class="zero" id="0">0</a></div>
+              <div><a id="equals">=</a></div>
             </div>
           </div>
           <div class="btn-col">
-            <div><a href="">&#247;</a></div>
-            <div><a href="">&#215;</a></div>
-            <div><a href="">-</a></div>
-            <div><a href="">+</a></div>
-            <div><a href="">.</a></div>
-            <div><a href="">=</a></div>
+            <div><a id="divide">&#247;</a></div>
+            <div><a id="multiply">&#215;</a></div>
+            <div><a id="subtract">-</a></div>
+            <div><a id="add">+</a></div>
+            <div><a id="float">.</a></div>
           </div>
         </div>
       </div>
